@@ -1,8 +1,8 @@
 function celsiusTofahrenheit(temperature) {
 
-    let c = (9 / 5) * (temperature + 32);
+    let f = (9 / 5) * (temperature + 32);
 
-    let fahrenheit = c.toFixed(2);
+    let fahrenheit = f.toFixed(2);
     return fahrenheit;
 }
 let temperatures = 200;
